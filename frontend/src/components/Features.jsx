@@ -19,7 +19,8 @@ export default function Features() {
       desc: "Support local communities while enjoying authentic cultural experiences.",
       icon: "🤝",
       color: "from-teal-500 to-cyan-500"
-    }
+    },
+    
   ];
 
   return (

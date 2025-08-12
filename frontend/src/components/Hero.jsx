@@ -1,4 +1,5 @@
 import React from "react";
+import { ChevronRight }from "lucide-react"
 
 export default function Hero() {
   return (
@@ -31,9 +32,7 @@ export default function Hero() {
               </svg>
             </button>
             <button className="bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-700 px-8 py-4 rounded-full hover:bg-white hover:shadow-lg transition-all duration-200 font-semibold flex items-center justify-center">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.5a1.5 1.5 0 011.5 1.5V12a1.5 1.5 0 01-1.5 1.5H9m0-4.5V9a1.5 1.5 0 011.5-1.5H12a1.5 1.5 0 011.5 1.5v1.5m-6 0h6" />
-              </svg>
+              <ChevronRight />
               Learn More
             </button>
           </div>

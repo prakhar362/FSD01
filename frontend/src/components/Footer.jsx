@@ -1,4 +1,5 @@
 import React from "react";
+import { Instagram,Twitter,Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -28,13 +29,13 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-                <span className="text-sm">📘</span>
+                <Instagram />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-                <span className="text-sm">📷</span>
+                <Twitter />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-                <span className="text-sm">🐦</span>
+                <Facebook/>
               </a>
             </div>
           </div>
