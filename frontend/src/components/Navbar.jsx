@@ -13,12 +13,20 @@ export default function Navbar() {
           </h1>
         </div>
         <nav className="space-x-8 hidden md:flex">
+          <a href="#destinations" className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium relative group">
+            Destinations
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
+          </a>
+          <a href="#tours" className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium relative group">
+            Tour Packages
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
+          </a>
           <a href="#features" className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium relative group">
-            Why Us
+            Why Choose Us
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
           </a>
           <a href="#packages" className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium relative group">
-            Packages
+            Pricing
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
           </a>
           <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium relative group">
