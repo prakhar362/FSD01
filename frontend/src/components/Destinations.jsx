@@ -3,8 +3,8 @@ import React from "react";
 export default function Destinations() {
   const destinations = [
     {
-      name: "Costa Rica Rainforest",
-      location: "Central America",
+      name: "C Rica Rainforest",
+      location: "America",
       image: "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800",
       description: "Explore pristine rainforests and support local conservation efforts",
       highlights: ["Wildlife Spotting", "Canopy Tours", "Sustainable Lodges"],

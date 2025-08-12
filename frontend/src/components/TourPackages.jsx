@@ -14,8 +14,8 @@ export default function TourPackages() {
           price: "$1,299",
           originalPrice: "$1,599",
           image: "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
-          description: "Deep jungle exploration with indigenous guides and wildlife research participation",
-          includes: ["Expert Guide", "All Meals", "Eco Lodge", "Research Activities", "Transportation"],
+          description: "Deep jungle exploration with indigenous guides and wildlife research",
+          includes: ["Expert Guide", "All Meals", "Eco Lodge", "Research Activities"],
           highlights: ["Jaguar Tracking", "Canopy Research", "River Expeditions", "Night Safaris"],
           difficulty: "Challenging",
           groupSize: "8-12 people",
@@ -63,7 +63,7 @@ export default function TourPackages() {
           originalPrice: "$999",
           image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=600",
           description: "Live with Maasai communities and support conservation efforts",
-          includes: ["Community Guide", "Traditional Meals", "Cultural Activities", "Conservation Work"],
+          includes: ["Community Guide", "Traditional Meals", "Cultural Activities"],
           highlights: ["Traditional Ceremonies", "Wildlife Conservation", "Craft Making", "Storytelling"],
           difficulty: "Easy",
           groupSize: "6-12 people",
@@ -83,7 +83,7 @@ export default function TourPackages() {
           originalPrice: "$1,499",
           image: "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
           description: "Work directly with orangutan rehabilitation centers",
-          includes: ["Conservation Work", "Expert Guides", "Research Activities", "Eco Accommodation"],
+          includes: ["Conservation Work", "Expert Guides", "Research Activities"],
           highlights: ["Orangutan Care", "Jungle Trekking", "Research Participation", "Local Communities"],
           difficulty: "Moderate",
           groupSize: "8-14 people",
@@ -131,24 +131,26 @@ export default function TourPackages() {
         </div>
         
         {/* Category Tabs */}
-        <div className="flex justify-center mb-12">
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-2 shadow-lg">
-            {Object.entries(tourCategories).map(([key, category]) => (
-              <button
-                key={key}
-                onClick={() => setActiveTab(key)}
-                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-200 flex items-center space-x-2 ${
-                  activeTab === key
-                    ? 'bg-gradient-to-r from-green-600 to-emerald-600 text-white shadow-lg'
-                    : 'text-gray-600 hover:text-green-600 hover:bg-green-50'
-                }`}
-              >
-                <span className="text-lg">{category.icon}</span>
-                <span>{category.title}</span>
-              </button>
-            ))}
-          </div>
-        </div>
+       {/* Category Tabs */}
+<div className="flex justify-center mb-12">
+  <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-2 shadow-lg flex space-x-2">
+    {Object.entries(tourCategories).map(([key, category]) => (
+      <button
+        key={key}
+        onClick={() => setActiveTab(key)}
+        className={`px-6 py-3 rounded-xl font-semibold transition-all duration-200 flex items-center space-x-2 ${
+          activeTab === key
+            ? 'bg-gradient-to-r from-green-600 to-emerald-600 text-white shadow-lg'
+            : 'text-gray-600 hover:text-green-600 hover:bg-green-50'
+        }`}
+      >
+        <span className="text-lg">{category.icon}</span>
+        <span>{category.title}</span>
+      </button>
+    ))}
+  </div>
+</div>
+
         
         {/* Tour Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

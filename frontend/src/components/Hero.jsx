@@ -64,20 +64,9 @@ export default function Hero() {
               className="relative rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
             
-            {/* Floating cards */}
-            <div className="absolute -top-6 -left-6 bg-white rounded-xl p-4 shadow-lg animate-bounce">
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <span className="text-sm font-medium">Carbon Neutral</span>
-              </div>
-            </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-4 shadow-lg animate-bounce delay-1000">
-              <div className="flex items-center space-x-2">
-                <span className="text-2xl">🌍</span>
-                <span className="text-sm font-medium">Eco Certified</span>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
       </div>
