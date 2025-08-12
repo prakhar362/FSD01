@@ -118,17 +118,3 @@ export default function Packages() {
     </section>
   );
 }
-                {pkg.features.map((f, i) => (
-                  <li key={i} className="text-gray-600">✔ {f}</li>
-                ))}
-              </ul>
-              <button className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">
-                Choose Package
-              </button>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
