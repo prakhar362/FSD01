@@ -84,13 +84,3 @@ export default function Hero() {
     </section>
   );
 }
-          <img
-            src="https://media.istockphoto.com/id/1356557792/photo/friends-using-binoculars-in-a-forest.jpg?s=612x612&w=0&k=20&c=qseYV0RZxOniiimv45oyWWRwDAt_-FAxdqiFvJXFP5w="
-            alt="Eco Travel"
-            className="rounded-lg shadow-lg"
-          />
-        </div>
-      </div>
-    </section>
-  );
-}
